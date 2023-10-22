@@ -1,0 +1,27 @@
+.fund-application {
+  display: flex;
+  gap: 50px;
+}
+.fund-topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.text-bold {
+  font-weight: bold;
+}
+.course-details {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+.course-info {
+  margin-top: 20px;
+}
+.details-heading {
+  font-weight: bold;
+}
+.edit-btn-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}

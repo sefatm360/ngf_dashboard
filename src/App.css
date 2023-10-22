@@ -1,0 +1,317 @@
+.invoice-view-input {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.invoice-view-input input {
+  width: auto;
+}
+.login-input {
+  padding: 0 30px;
+  text-align: left !important;
+}
+.login-input input {
+  width: 100% !important;
+  text-align: left !important;
+  padding: 10px;
+  border: 1px solid gray !important;
+  border-radius: 5px;
+}
+
+/* Spinner Styles  */
+.spinner {
+  text-align: center;
+}
+
+/* Queen Loading spinner  */
+.queen-loading {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Date Picker  */
+.date-picker {
+  height: 48px;
+  margin-top: 10px;
+}
+
+/* Edit Product form Modal  */
+.edit-form-modal {
+  display: flex;
+}
+
+.text-black {
+  color: black;
+}
+
+.search-btn {
+  background-color: var(--main-color);
+  height: 100%;
+  width: 30%;
+  color: white;
+  padding: 0 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 0 5px 6px 0;
+}
+.search-selector {
+  width: 150px;
+  height: 100%;
+  border: none;
+}
+.logut-btn {
+  cursor: pointer;
+  padding: 0 5px;
+  cursor: pointer;
+  padding: 9px 8px;
+  display: flex;
+  align-items: center;
+  background: var(--main-color);
+  color: #fff;
+  border: 0px;
+  border-top-right-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
+
+/* Customer page */
+.customer-wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  margin-top: 20px;
+}
+.customer {
+  display: flex;
+  padding: 5px;
+  column-gap: 10px;
+  border: 1px dotted gray;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Add Skills styles */
+.skill-category > li > ul {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  padding: 2px 5px;
+  background-color: white;
+  max-height: 150px;
+  overflow: auto;
+}
+.skill-category > li > span {
+  font-size: 20px;
+  /* border-bottom: 1px solid black; */
+  font-weight: 500;
+}
+.skill-category {
+  width: 100%;
+  width: 200px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.success-massage {
+  padding: 3px 7px;
+  font-weight: bold;
+  background-color: rgba(0, 128, 0, 0.712);
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  color: white;
+}
+.single-skill {
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  padding: 0 3px;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  flex-wrap: wrap;
+}
+.skill-for-add {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+.skill-for-add button {
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  padding: 0 3px;
+  border: none;
+}
+
+/* notification styles  */
+.notification-icon {
+  font-size: 26px;
+  cursor: pointer;
+  color: #000;
+}
+.notification-box-wrapper {
+  position: absolute;
+  background-color: #fff;
+  left: -49px;
+  width: 19rem;
+  top: 51px;
+  color: white;
+  overflow: hidden;
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px,
+    rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+  border-radius: 5px;
+  z-index: 99999;
+}
+.notification-box-wrapper .notification-box-header {
+  background: var(--main-color);
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 6px;
+  font-size: 0.75rem;
+  align-items: center;
+}
+.notification-box-header .clear-btn {
+  font-size: 0.65rem;
+  cursor: pointer;
+}
+
+.notification-box-wrapper .notification-msg {
+  color: #000;
+  font-size: 0.69rem;
+  font-weight: 700;
+}
+
+.notification-box-wrapper .notification-content {
+  padding: 5px 6px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #80808040;
+  align-items: center;
+  background-color: #80808040;
+  cursor: pointer;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+.notification-box-wrapper .notification-content:hover {
+  background-color: #e3e1e1a6 !important;
+}
+.notification-msg .count-number {
+  font-weight: 700;
+}
+
+.read-notification-msg .notification-content {
+  background-color: #fff !important;
+  color: #000 !important;
+}
+.read-notification-msg .notification-content .notification-msg {
+  font-weight: 500 !important;
+}
+
+.notification-content .notification-time {
+  font-size: 0.7rem;
+  color: var(--main-color);
+  font-weight: 500;
+  margin: 0 5px;
+}
+.user-wrapper {
+  position: relative;
+}
+.notification-main-box-wrapper::before {
+  content: '';
+  position: absolute !important;
+  top: 35px;
+  right: 67%;
+  border-style: solid;
+  border-radius: 5px !important;
+  border-width: 10px 15px 10px 0;
+  border-color: transparent var(--main-color) transparent transparent;
+  transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  -webkit-border-radius: 5px !important;
+  -moz-border-radius: 5px !important;
+  -ms-border-radius: 5px !important;
+  -o-border-radius: 5px !important;
+  z-index: 9999999;
+}
+.notification-content-box-height {
+  height: 22.5rem;
+  overflow-y: scroll;
+}
+.notification-content-box-height::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+}
+
+.notification-content-box-height::-webkit-scrollbar {
+  width: 8px;
+}
+.notification-content-box-height::-webkit-scrollbar-thumb {
+  background-color: rgba(128, 128, 128, 0.514);
+}
+
+/* trainee details button  */
+.trainee-btn {
+  background-color: var(--main-color);
+  color: white;
+  border: none;
+  font-size: 12px;
+  padding: 0 5px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.pending-button {
+  margin: 0 70px;
+}
+
+.update-request {
+  text-align: center;
+}
+.update-product-details {
+  display: flex;
+}
+.update-pending {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+@media screen and (max-width: 600px) {
+  .update-pending {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .pending-button {
+    margin: 0 90px;
+  }
+}
+
+/* table for phone */
+.update-request-table {
+  display: none;
+}
+.request-div-text {
+  display: flex;
+  gap: 370px;
+}
+@media screen and (max-width: 600px) {
+  .update-request-table {
+    display: block;
+  }
+  .update-request-pc {
+    display: none;
+  }
+}
+
+/* Blog styles  */
+.ql-container {
+  min-height: 300px;
+  max-height: 400px;
+  overflow: scroll;
+}

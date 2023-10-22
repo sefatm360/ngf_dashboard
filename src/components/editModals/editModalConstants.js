@@ -1,0 +1,2 @@
+export const SET_INITIAL_STATE = 'SET_INITIAL_STATE';
+export const SET_SINGLE_VALUE = 'SET_SINGLE_VALUE';
