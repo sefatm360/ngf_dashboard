@@ -26,7 +26,7 @@ const OrderPage = ({ order, serial }) => {
     <>
       <tr className='tableRow'>
         <td>{serial}</td>
-        <td>OTW-O{id || order_id}</td>
+        <td>NGF-O{id || order_id}</td>
         <td>{customer_name}</td>
         <td>{moment(order_date).format('MMM Do YY')}</td>
         <td> {status}</td>
@@ -72,7 +72,7 @@ const OrderPage = ({ order, serial }) => {
                       <tr>
                         <td>Serial</td>
                         <td>Product</td>
-                        <td>Queen</td>
+                        <td>ME</td>
                         <td>Category</td>
                         <td>Price</td>
                         <td>Quantity </td>

@@ -26,7 +26,7 @@ export default function QueenRefList() {
     <div className='content'>
       <div className='center-info'>
         <main>
-          <h3>Queen reference list ({queenRef.length})</h3>
+          <h3>ME reference list ({queenRef.length})</h3>
           <hr />
           {isLoading ? (
             <Spinner />

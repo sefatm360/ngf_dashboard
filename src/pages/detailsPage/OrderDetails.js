@@ -133,7 +133,7 @@ const OrderDetails = () => {
                       >
                         <div className='invoice-view-input'>
                           <label htmlFor='commision'>
-                            <span>OTW Commision</span>
+                            <span>NGF Commision</span>
                             <br />
                             <select
                               defaultValue={20}

@@ -19,7 +19,7 @@ const SocialUserBlock = ({ socialUser, serial }) => {
                 src='/assets/avatar.jpg'
                 width='40px'
                 height='40px'
-                alt='Queen'
+                alt='ME'
               />
             )}
           </div>

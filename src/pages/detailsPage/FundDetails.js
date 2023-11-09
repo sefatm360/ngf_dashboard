@@ -124,7 +124,7 @@ const FundDetails = () => {
                   {return_time} {''} Month
                 </p>
                 <p>
-                  Queen will return <mark>{return_type}</mark>
+                  ME will return <mark>{return_type}</mark>
                 </p>
               </div>
             </div>

@@ -146,14 +146,14 @@ const QueenConnect = () => {
                                             src={`${url}/get/image/social_users_files/${photo}`}
                                             width='40px'
                                             height='40px'
-                                            alt='Queen'
+                                            alt='ME'
                                           />
                                         ) : (
                                           <img
                                             src='/assets/avatar.jpg'
                                             width='40px'
                                             height='40px'
-                                            alt='Queen'
+                                            alt='ME'
                                           />
                                         )}
                                         <div>

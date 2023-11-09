@@ -125,7 +125,7 @@ const OfferDetails = () => {
                           <thead>
                             <tr>
                               <td>Product Name</td>
-                              <td>Queen Name </td>
+                              <td>ME Name </td>
                               <td>Offer Type</td>
                               <td>Offer Description </td>
                               <td>Expiration Date </td>

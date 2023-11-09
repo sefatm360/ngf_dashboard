@@ -36,7 +36,7 @@ const CustomerInvoiceForm = ({ orderDetails }) => {
                 <span>Date:</span> {orderDate.toDateString()}
               </p>
               <p>
-                <span>Order id:</span> OTW-O{order_id}
+                <span>Order id:</span> NGF-O{order_id}
               </p>
               <p>
                 <span>Name:</span> {customer_name}
@@ -62,7 +62,7 @@ const CustomerInvoiceForm = ({ orderDetails }) => {
           </div>
           <div className='invoice-order-id'>
             <span className='queen-info'>
-              <span>Order id:</span> OTW-O{order_id}
+              <span>Order id:</span> NGF-O{order_id}
             </span>
           </div>
           <div>
@@ -89,7 +89,7 @@ const CustomerInvoiceForm = ({ orderDetails }) => {
                   const { product_id, quantity, product_name, price } = order;
                   return (
                     <tr key={product_id}>
-                      <td>OTW-P{product_id}</td>
+                      <td>NGF-P{product_id}</td>
                       <td>{product_name}</td>
                       <td>{price}tk</td>
                       <td>{quantity}</td>

@@ -15,7 +15,7 @@ const CustomQueenInvoice = () => {
 
   const handlePrint = useReactToPrint({
     content: () => componentRef.current,
-    documentTitle: `Queen Invoice OTW-O${otherData.order_id}`,
+    documentTitle: `ME Invoice NGF-O${otherData.order_id}`,
   });
 
   const removeProduct = (e) => {
@@ -102,12 +102,12 @@ const CustomQueenInvoice = () => {
                 </select>
               </label>
               <label htmlFor='queen_name'>
-                <span>Queen Name</span>
+                <span>ME Name</span>
                 <input
                   type='text'
                   id='queen_name'
                   name='queen_name'
-                  placeholder='Queen Name'
+                  placeholder='ME Name'
                   onChange={(e) =>
                     setQueenData({ ...queenData, name: e.target.value })
                   }
@@ -115,12 +115,12 @@ const CustomQueenInvoice = () => {
                 />
               </label>
               <label htmlFor='queen_city'>
-                <span>Queen City</span>
+                <span>ME City</span>
                 <input
                   type='text'
                   id='queen_city'
                   name='queen_city'
-                  placeholder='Queen City'
+                  placeholder='ME City'
                   onChange={(e) =>
                     setQueenData({ ...queenData, city: e.target.value })
                   }
@@ -128,12 +128,12 @@ const CustomQueenInvoice = () => {
                 />
               </label>
               <label htmlFor='post_code'>
-                <span>Queen Post Code</span>
+                <span>ME Post Code</span>
                 <input
                   type='text'
                   id='post_code'
                   name='post_code'
-                  placeholder='Queen Post Code'
+                  placeholder='ME Post Code'
                   onChange={(e) =>
                     setQueenData({ ...queenData, post_code: e.target.value })
                   }
@@ -156,12 +156,12 @@ const CustomQueenInvoice = () => {
                 />
               </label>
               <label htmlFor='queen_id'>
-                <span>Queen Id</span>
+                <span>ME Id</span>
                 <input
                   type='text'
                   id='queen_id'
                   name='queen_id'
-                  placeholder='Queen Id'
+                  placeholder='ME Id'
                   onChange={(e) =>
                     setQueenData({ ...queenData, id: e.target.value })
                   }
@@ -169,12 +169,12 @@ const CustomQueenInvoice = () => {
                 />
               </label>
               <label htmlFor='queen_phone'>
-                <span>Queen Phone</span>
+                <span>ME Phone</span>
                 <input
                   id='queen_phone'
                   name='queen_phone'
                   type='text'
-                  placeholder='Queen Phone'
+                  placeholder='ME Phone'
                   onChange={(e) =>
                     setQueenData({ ...queenData, phone: e.target.value })
                   }

@@ -4,8 +4,8 @@
   --main-color: #0E2BBF;
   --color-dark: #1d2231;
   --text-grey: #394049;
-  --light-color: lightpink;
-  --semi-light-color: #85133d;
+  --light-color: #6b82f3;
+  --semi-light-color: #384db6;
 }
 
 * {
@@ -262,7 +262,7 @@ main {
 }
 
 .div-border {
-  border: 1px dashed pink;
+  border: 1px dashed #384db6;
 }
 
 .card {
@@ -342,7 +342,7 @@ thead td {
 }
 
 .tableRow:hover {
-  background-color: pink;
+  background-color: #0623b55b;
 }
 
 th {
@@ -407,7 +407,7 @@ td .status {
 }
 
 .status.pink {
-  background: deeppink;
+  background: #384db6;
 }
 
 .table-responsive {
@@ -1203,7 +1203,7 @@ input[type='submit']:hover {
   padding: 10px;
   position: fixed;
   z-index: 9999;
-  background-color: pink;
+  background-color: #384db6;
   top: 50%;
   left: 50%;
   overflow: auto;

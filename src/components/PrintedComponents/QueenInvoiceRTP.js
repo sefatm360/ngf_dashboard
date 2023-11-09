@@ -25,7 +25,7 @@ const QueenInvoiceRTP = ({ orderDetails, queenDetails, orderCommision }) => {
         <div className='queen-info-wrapper'>
           <div>
             <div>
-              <p className='queen-info-title'>Queen info</p>
+              <p className='queen-info-title'>ME info</p>
             </div>
             <div className='queen-info'>
               <p>
@@ -36,7 +36,7 @@ const QueenInvoiceRTP = ({ orderDetails, queenDetails, orderCommision }) => {
                 <span>Name:</span> {name}
               </p>
               <p>
-                <span>Queen id:</span> NGF-ME{id}
+                <span>ME id:</span> NGF-ME{id}
               </p>
               <p>
                 <span>Address:</span> {address},{city} {post_code}
@@ -54,13 +54,11 @@ const QueenInvoiceRTP = ({ orderDetails, queenDetails, orderCommision }) => {
         </div>
         <div>
           <div>
-            <p className='queen-invoice-title queen-info-title'>
-              Queen Invoice
-            </p>
+            <p className='queen-invoice-title queen-info-title'>ME Invoice</p>
           </div>
           <div className='invoice-order-id'>
             <span className='queen-info'>
-              <span>Order id:</span> OTW-O{order_id}
+              <span>Order id:</span> NGF-O{order_id}
             </span>
           </div>
           <div>
@@ -88,7 +86,7 @@ const QueenInvoiceRTP = ({ orderDetails, queenDetails, orderCommision }) => {
                     order;
                   return (
                     <tr key={id}>
-                      <td>OTW-P{product_id}</td>
+                      <td>NGF-P{product_id}</td>
                       <td>{product_name}</td>
                       <td>{price}tk</td>
                       <td>{quantity}</td>
@@ -108,7 +106,7 @@ const QueenInvoiceRTP = ({ orderDetails, queenDetails, orderCommision }) => {
             </span>
             <h3>Payment Received</h3>
             <span className='queen-info'>
-              <span>Order id:</span> OTW-O{order_id}
+              <span>Order id:</span> NGF-O{order_id}
             </span>
           </div>
           <div className='received-paragraph'>
@@ -118,7 +116,7 @@ const QueenInvoiceRTP = ({ orderDetails, queenDetails, orderCommision }) => {
                 {reducer?.netPrice - (reducer?.netPrice * orderCommision) / 100}
                 tk
               </u>{' '}
-              from "On The Way" for selling of order id <b>OTW-O{order_id}</b>.
+              from "On The Way" for selling of order id <b>NGF-O{order_id}</b>.
               Which is the total after <b>{orderCommision}%</b> service
               charge/commision of "On The Way"
             </p>

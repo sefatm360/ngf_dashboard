@@ -16,7 +16,7 @@ const CreateInvoice = () => {
               } select-invoice-btn`}
               onClick={() => setSelectInvoice('queen')}
             >
-              Queen Invoice
+              ME Invoice
             </span>
             <span
               className={`${

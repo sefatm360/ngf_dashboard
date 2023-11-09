@@ -62,7 +62,7 @@ const SeeAllProducts = () => {
       const { data } = await fetcher.get({
         url: `${uri}?limit=${limit}&skip=${skipData}`,
       });
-  
+
       if (data.success) {
         setPageProducts(data);
       }
@@ -241,7 +241,7 @@ const SeeAllProducts = () => {
                         <tr>
                           <td width='10%'>Serial</td>
                           <td width='40%'>Product</td>
-                          <td width='25%'>Queen</td>
+                          <td width='25%'>ME</td>
                           <td width='15%'>Category</td>
                           <td width='10%'>Status</td>
                           <td width='10%'>Action</td>

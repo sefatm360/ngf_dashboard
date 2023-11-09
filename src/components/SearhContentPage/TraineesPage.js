@@ -20,7 +20,7 @@ const TraineesPage = ({ trainee, serial }) => {
                 <b>{trainee.name}</b>
               </p>
               <p className='pl-1 pr-1 main-color'>
-                <b>OTWT-T{trainee.id}</b>
+                <b>NGFT-T{trainee.id}</b>
               </p>
               <p>(0{trainee.phone})</p>
             </div>

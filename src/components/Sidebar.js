@@ -34,7 +34,7 @@ const Sidebar = () => {
     // { id: 12, name: 'Funds', path: '/funds' },
     { id: 13, name: 'Content', path: '/content' },
     { id: 14, name: 'Create Invoice', path: '/create-invoice' },
-    // { id: 19, name: 'Queen Connect', path: '/queen-connect' },
+    // { id: 19, name: 'ME Connect', path: '/queen-connect' },
   ];
 
   return (

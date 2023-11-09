@@ -123,7 +123,8 @@ const SeeAllSellerGigs = () => {
                 id='selectCategory'
                 name='selectCategory'
                 onChange={(e) => handleOnCategory(e.target.value)}
-                defaultValue={category || 'All'}>
+                defaultValue={category || 'All'}
+              >
                 <option value='all'>All</option>
                 {catagories.map((item) => {
                   console.log(item);
@@ -142,7 +143,8 @@ const SeeAllSellerGigs = () => {
                 id='selectCategory'
                 name='selectCategory'
                 onChange={(e) => handleChangeType(e.target.value)}
-                value={type.toLowerCase() || 'All'}>
+                value={type.toLowerCase() || 'All'}
+              >
                 <option value='all'>All</option>
                 <option value='pending'>Pending</option>
                 <option value='approved'>Approved</option>
@@ -163,7 +165,7 @@ const SeeAllSellerGigs = () => {
                       <tr>
                         <td width='10%'>Serial</td>
                         <td width='40%'>Product</td>
-                        <td width='25%'>Queen</td>
+                        <td width='25%'>ME</td>
                         <td width='10%'>Status</td>
                         <td width='10%'>Action</td>
                       </tr>

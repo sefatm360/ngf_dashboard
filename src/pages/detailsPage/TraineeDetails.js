@@ -11,7 +11,7 @@ const TraineeDetails = () => {
 
   useEffect(() => {
     (() => {
-      fetch(`${url}/otw-training/api/trainee/get/single/${id}`)
+      fetch(`${url}/NGF-training/api/trainee/get/single/${id}`)
         .then((res) => res.json())
         .then((data) => setTrainee(data.data));
     })();
@@ -54,7 +54,7 @@ const TraineeDetails = () => {
             <div className='profile-img-slot'>
               {queen_id ? (
                 <Link className='button' to={`/me/details/${queen_id}`}>
-                  Queen Profile
+                  ME Profile
                 </Link>
               ) : (
                 ''

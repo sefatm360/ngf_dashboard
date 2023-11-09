@@ -183,7 +183,7 @@ const Queens = () => {
                             })}
                           </>
                         ) : (
-                          <h3 className='spinner'>No {title} Queen</h3>
+                          <h3 className='spinner'>No {title} ME</h3>
                         )}
                       </>
                     ) : (

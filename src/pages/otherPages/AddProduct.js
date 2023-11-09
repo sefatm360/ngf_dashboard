@@ -145,14 +145,14 @@ const AddProduct = () => {
                 }}
               >
                 <div className='mt-3'>
-                  <p className='fw-bold'>Queen {queenName}</p>
+                  <p className='fw-bold'>ME {queenName}</p>
                   <input
                     className='sign-up-input w-25'
-                    value={`OTW-Q${queenId}`}
+                    value={`NGF-Q${queenId}`}
                     disabled
                     maxLength='250'
                     type='text'
-                    placeholder='Enter Queen Id'
+                    placeholder='Enter ME Id'
                   />
                 </div>
                 <div className='mt-3'>

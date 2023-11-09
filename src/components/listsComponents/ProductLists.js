@@ -21,7 +21,7 @@ const ProductLists = ({ data, title, fetching, path }) => {
                       <tr>
                         <td width='10%'>Serial</td>
                         <td width='30%'>Product</td>
-                        <td width='30%'>Queen</td>
+                        <td width='30%'>ME</td>
                         <td width='10%'>Action</td>
                       </tr>
                     </thead>

@@ -36,7 +36,7 @@ const ProductPage = ({ product, serial }) => {
                 {product_name}
               </span>
               <span className='product-list-page-name primary ml-2'>
-                OTW-P{id}
+                NGF-P{id}
               </span>
 
               <br />

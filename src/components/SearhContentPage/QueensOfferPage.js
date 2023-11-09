@@ -19,7 +19,7 @@ const QueensOfferPage = ({ offer }) => {
                 <b>{offer.title}</b>
               </p>
               <p className='pl-1 pr-1 main-color'>
-                <b>OTW-QO{offer.id}</b>
+                <b>NGF-QO{offer.id}</b>
               </p>
               {/* <p>(0{queen.phone})</p> */}
             </div>

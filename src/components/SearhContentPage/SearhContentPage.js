@@ -72,7 +72,7 @@ const SearhContentPage = () => {
                               <tr>
                                 <th width='5%'>SL</th>
                                 <th width='35%'>Product</th>
-                                <th width='25%'>Queen</th>
+                                <th width='25%'>ME</th>
                                 <th width='10%'>Category</th>
                                 <th width='10%'>Status</th>
                                 <th width='10%'>Action</th>

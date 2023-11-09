@@ -46,17 +46,17 @@ const QueenDetails = () => {
   const cards = [
     {
       id: 1,
-      field: 'Queen Products',
+      field: 'ME Products',
       path: `/me/details/${id}/products?queen=${name}`,
     },
     {
       id: 2,
-      field: 'Queen Orders',
+      field: 'ME Orders',
       path: `/me/details/${id}/orders?queen=${name}`,
     },
     // {
     //   id: 3,
-    //   field: 'Queen Offers',
+    //   field: 'ME Offers',
     //   path: `/me/details/${id}/offers?queen=${name}`,
     // },
   ];
@@ -160,7 +160,7 @@ const QueenDetails = () => {
                 <div className='items-right'>
                   <span>
                     <p>
-                      Queen Id:<span>NGF-ME{id}</span>
+                      ME Id:<span>NGF-ME{id}</span>
                     </p>
                   </span>
                   <span>

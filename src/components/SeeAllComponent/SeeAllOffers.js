@@ -52,11 +52,7 @@ const SeeAllOffers = () => {
   return (
     <div className='content'>
       <main>
-        {queen ? (
-          <h2>All Queen's {type} Offers</h2>
-        ) : (
-          <h2>All {type} Offers</h2>
-        )}
+        {queen ? <h2>All ME's {type} Offers</h2> : <h2>All {type} Offers</h2>}
 
         {isLoading ? (
           <div>

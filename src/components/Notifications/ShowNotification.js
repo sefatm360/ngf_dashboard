@@ -105,7 +105,7 @@ const ShowNotification = ({ notificationDetails }) => {
           <div className='notification-content'>
             <p className='notification-msg'>
               <span className='count-number'>
-                <span className='main-color'>OTW-P {update_id}</span>
+                <span className='main-color'>NGF-P {update_id}</span>
               </span>{' '}
               -{msg}
             </p>

@@ -114,12 +114,12 @@ const QueenEditModal = ({ data, setUpdateSpinner }) => {
       <form onSubmit={handleSubmit}>
         <div className='first-row'>
           <label htmlFor='queenName'>
-            <span>Queen name</span>
+            <span>ME name</span>
             <input
               type='text'
               id='queenName'
               name='queenName'
-              placeholder='Queen Name'
+              placeholder='ME Name'
               style={{ width: 'auto' }}
               value={name}
               onChange={(e) =>
@@ -137,7 +137,7 @@ const QueenEditModal = ({ data, setUpdateSpinner }) => {
               type='text'
               id='designation'
               name='designation'
-              placeholder='Queen designation'
+              placeholder='ME designation'
               style={{ width: 'auto' }}
               value={designation}
               onChange={(e) =>
@@ -274,7 +274,7 @@ const QueenEditModal = ({ data, setUpdateSpinner }) => {
             </select>
           </label>
           <label htmlFor='queen_category'>
-            <span>Queen category</span>
+            <span>ME category</span>
             <select
               id='queen_category'
               name='queen_category'

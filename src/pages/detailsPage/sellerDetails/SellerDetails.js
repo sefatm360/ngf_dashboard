@@ -93,7 +93,7 @@ const SellerDetails = () => {
               <div className='profile-img-slot'>
                 {queen_id ? (
                   <Link className='button' to={`/me/details/${queen_id}`}>
-                    Queen Profile
+                    ME Profile
                   </Link>
                 ) : (
                   ''
@@ -142,7 +142,7 @@ const SellerDetails = () => {
                 <div className='items-right'>
                   <span>
                     <p>
-                      Seller Id:<span>OTWT-T{id}</span>
+                      Seller Id:<span>NGFT-T{id}</span>
                     </p>
                   </span>
                   <span>

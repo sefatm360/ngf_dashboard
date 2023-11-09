@@ -160,7 +160,7 @@ const SeeAllQueens = () => {
                 <div className='range-date-section '>
                   <div>
                     <h3 className='mb-2 filter-title'>
-                      Filter Queen by multiple Date Range
+                      Filter ME by multiple Date Range
                     </h3>
                     <div
                       style={{ height: '54%' }}
@@ -216,7 +216,7 @@ const SeeAllQueens = () => {
               {/* 
             //// Get queen by single day select option is commented
                 <div>
-              <h3 className='mb-2 filter-title'>Filter Queen by date</h3>
+              <h3 className='mb-2 filter-title'>Filter ME by date</h3>
               <div className=' filter-queen-by-date'>
                 <div>
                   <input

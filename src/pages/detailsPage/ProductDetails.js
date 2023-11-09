@@ -134,7 +134,7 @@ const ProductDetails = () => {
 
               <div style={{ margin: '10px 0' }}>
                 <h4>
-                  (Product ID: OTW-P{id}){' '}
+                  (Product ID: NGF-P{id}){' '}
                   {status === 'Approved' && (
                     <a
                       className='button'
@@ -216,7 +216,7 @@ const ProductDetails = () => {
                             <tr>
                               <td>Product Name</td>
                               <td>Product Category</td>
-                              <td>Queen Name </td>
+                              <td>ME Name </td>
                               <td>Price </td>
                               <td>Delivery Date </td>
                               <td>Status </td>

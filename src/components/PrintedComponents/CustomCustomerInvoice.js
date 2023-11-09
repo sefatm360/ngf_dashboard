@@ -9,7 +9,7 @@ const CustomCustomerInvoice = () => {
 
   const handlePrint = useReactToPrint({
     content: () => componentRef.current,
-    documentTitle: `Customer Invoice OTW-O${orderData.order_id}`,
+    documentTitle: `Customer Invoice NGF-O${orderData.order_id}`,
   });
 
   const removeProduct = (e) => {

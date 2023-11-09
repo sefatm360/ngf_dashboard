@@ -85,7 +85,7 @@ export default function Blog() {
 
   useEffect(() => {
     let urls = adminBlogUrls;
-    if (blogType === 'Queen') {
+    if (blogType === 'ME') {
       urls = queensBlogUrls;
     }
     urls.forEach((item) => {
@@ -148,8 +148,8 @@ export default function Blog() {
     {
       id: 2,
       length: queenAllBlogs.total,
-      field: 'Queen Blogs',
-      path: '/blog?blog-status=Queen',
+      field: 'ME Blogs',
+      path: '/blog?blog-status=ME',
     },
     {
       id: 3,
@@ -175,7 +175,7 @@ export default function Blog() {
     if (status === 'All') {
       navigate(`/blog/all-blogs/All/${status}`);
     } else {
-      if (status === 'Admin' || status === 'Queen') {
+      if (status === 'Admin' || status === 'ME') {
         navigate(`/blog/all-blogs/${blogType}/all`);
       } else {
         navigate(`/blog/all-blogs/${blogType}/${status}`);

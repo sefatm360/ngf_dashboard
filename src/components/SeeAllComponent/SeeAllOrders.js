@@ -92,7 +92,8 @@ const SeeAllOrders = () => {
                 name='selectType'
                 id='selectType'
                 onChange={(e) => handleType(e.target.value)}
-                defaultValue={type || 'all'}>
+                defaultValue={type || 'all'}
+              >
                 <option value='all'>All</option>
                 <option value='pending'>Pending</option>
                 <option value='approved'>Approved</option>
@@ -105,11 +106,12 @@ const SeeAllOrders = () => {
               <div className='range-date-section '>
                 <div>
                   <h3 className='mb-2 filter-title'>
-                    Filter Queen by multiple Date Range
+                    Filter ME by multiple Date Range
                   </h3>
                   <div
                     style={{ height: '54%' }}
-                    className='d-flex align-items-center multiple-date-range'>
+                    className='d-flex align-items-center multiple-date-range'
+                  >
                     <div>
                       <input
                         type='date'
@@ -147,7 +149,8 @@ const SeeAllOrders = () => {
                           state.filteredDate2 && state.filteredDate3
                             ? false
                             : true
-                        }>
+                        }
+                      >
                         Apply
                       </button>
                     </div>

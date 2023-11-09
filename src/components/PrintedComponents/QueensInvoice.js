@@ -40,7 +40,7 @@ const QueensInvoice = () => {
   const componentRef = useRef();
   const handlePrint = useReactToPrint({
     content: () => componentRef.current,
-    documentTitle: `Queen Invoice OTW-O${orderDetails.order_id}`,
+    documentTitle: `ME Invoice NGF-O${orderDetails.order_id}`,
   });
 
   const handleSubmit = (e) => {

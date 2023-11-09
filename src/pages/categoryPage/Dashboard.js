@@ -41,13 +41,13 @@ const Dashboard = () => {
     { id: 1, length: customers.total, field: 'Customers', path: '/customers' },
     { id: 2, length: products.total, field: 'Products', path: '/products' },
     { id: 3, length: orders.total, field: 'Orders', path: '/orders' },
-    { id: 4, length: gigs.total, field: 'Gigs', path: '/gigs' },
-    {
-      id: 5,
-      length: gigOrders.total,
-      field: 'Gig Orders',
-      path: '/gig-orders',
-    },
+    // { id: 4, length: gigs.total, field: 'Gigs', path: '/gigs' },
+    // {
+    //   id: 5,
+    //   length: gigOrders.total,
+    //   field: 'Gig Orders',
+    //   path: '/gig-orders',
+    // },
     // { id: 4, data: offers, field: 'Offers', path: 'offers' },
     { id: 6, length: queens.total, field: "ME's", path: 'queens' },
   ];
@@ -150,7 +150,7 @@ const Dashboard = () => {
                         <tr>
                           <td>Serial</td>
                           <td>Photo</td>
-                          <td>Queen Name</td>
+                          <td>ME Name</td>
                           <td>Status</td>
                         </tr>
                       </thead>
@@ -362,7 +362,7 @@ const Dashboard = () => {
             </div>
           </div>
 
-          <div className='products div-border'>
+          {/* <div className='products div-border'>
             <div className='card'>
               <div className='card-header'>
                 <h3>Recently added Gigs</h3>
@@ -381,7 +381,7 @@ const Dashboard = () => {
                         <tr>
                           <td>Serial</td>
                           <td>Gig Title</td>
-                          <td>Queen</td>
+                          <td>ME</td>
                           <td>Status</td>
                         </tr>
                       </thead>
@@ -440,9 +440,9 @@ const Dashboard = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
 
-          <div className='products div-border'>
+          {/* <div className='products div-border'>
             <div className='card'>
               <div className='card-header'>
                 <h3>Recent Gig Orders</h3>
@@ -512,7 +512,7 @@ const Dashboard = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </main>
     </div>

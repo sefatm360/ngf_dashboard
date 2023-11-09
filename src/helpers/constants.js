@@ -1,7 +1,7 @@
 // the ultimate url
-// export const url = 'http://192.168.0.234:4001';
-// export const url = 'http://localhost:4001';
-export const url = 'https://ngf-server.akpalakesingra.com';
+export const url = 'http://192.168.0.237:4001';
+// export const url = 'https://ngf-server.akpalakesingra.com';
+// export const url = 'https://hajjmanagment.online';
 
 // fetching customers
 export const FETCH_CUSTOMER_STARTS = 'FETCH_CUSTOMER_STARTS';

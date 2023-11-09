@@ -22,7 +22,7 @@ const CustomersInvoice = () => {
 
   const handlePrint = useReactToPrint({
     content: () => componentRef.current,
-    documentTitle: `Customer invoice OTW-O${orderDetails.order_id}`,
+    documentTitle: `Customer invoice NGF-O${orderDetails.order_id}`,
   });
 
   return (

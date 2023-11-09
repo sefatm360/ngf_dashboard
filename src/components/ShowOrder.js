@@ -36,7 +36,7 @@ const ShowOrder = ({ order, serial }) => {
         }}
       >
         <span className='fw-bold'>{serial}</span>
-        <span>OTW-O{id || order_id}</span>
+        <span>NGF-O{id || order_id}</span>
         <span>{customer_name}</span>
         <span>{moment(order_date).format('MMM Do YY')}</span>
         <span>{delivery_address.split(',')[0]}</span>
@@ -62,7 +62,7 @@ const ShowOrder = ({ order, serial }) => {
             <thead>
               <tr>
                 <td>Product</td>
-                <td>Queen</td>
+                <td>ME</td>
                 <td>Category</td>
                 <td>Price</td>
                 <td>Quantity </td>
