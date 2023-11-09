@@ -66,19 +66,19 @@ const Queens = () => {
     {
       id: 1,
       length: pendingQueen.total,
-      field: 'Pending Queens',
+      field: "Pending Me's",
       path: '/me/all?type=pending',
     },
     {
       id: 2,
       length: approvedQueen.total,
-      field: 'Approved Queens',
+      field: "Approved Me's",
       path: '/me/all?type=approved',
     },
     {
       id: 3,
       length: rejectedQueen.total,
-      field: 'Rejected Queens',
+      field: "Rejected Me's",
       path: '/me/all?type=rejected',
     },
   ];
@@ -98,7 +98,7 @@ const Queens = () => {
         <h1 className='page-header-title'>
           ME's list Overview{' '}
           <Link className='button' to='/me/all'>
-            All Queens
+            All Me's
           </Link>
         </h1>
         <div className='cards orderpage'>
@@ -111,7 +111,7 @@ const Queens = () => {
               <div className='customers' key={title}>
                 <div className='card'>
                   <div className='card-header'>
-                    <h3>{title} Queens</h3>
+                    <h3>{title} Me's</h3>
                     <Link to={`/me/all?type=${path}`}>See All</Link>
                   </div>
                   <div className='card-body'>
