@@ -56,7 +56,7 @@ const CustomerInvoiceRTO = ({ orderDetails }) => {
                 </div>
               </div>
               <div className='site-info'>
-                <small>www.onthe-way.com</small>
+                <small>www.sunderbanmart.com</small>
                 <small>Phone: +8809638336677</small>
                 <small>Email: onthewayqueen@gmail.com</small>
               </div>

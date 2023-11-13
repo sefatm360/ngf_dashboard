@@ -4,6 +4,7 @@ import {
   SET_ALL_NOTIFICATIONS,
   SET_NEW_NOTIFICATION,
   SET_UNREAD_NOTIFICATION_COUNT,
+  socket_url,
   url,
 } from '../helpers/constants';
 import fetcher from '../helpers/fetchApi';
@@ -42,7 +43,10 @@ const NotificationContext = ({ children }) => {
         }
       })();
     }
-    const socket = io(url, { withCredentials: true });
+    const socket = io(socket_url, {
+      path: '/api/socket',
+      withCredentials: true,
+    });
     socket.on('new_notification', (data) => {
       dispatch({ type: SET_NEW_NOTIFICATION, payload: data });
     });

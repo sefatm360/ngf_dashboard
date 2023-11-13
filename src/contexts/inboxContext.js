@@ -3,6 +3,7 @@ import {
   SET_ALL_MESSAGES,
   SET_NEW_MESSAGE,
   SET_UNREAD_COUNT,
+  socket_url,
   url,
 } from '../helpers/constants';
 import fetcher from '../helpers/fetchApi';
@@ -42,7 +43,10 @@ const InboxContextPrivider = ({ children }) => {
         }
       })();
     }
-    const socket = io(url, { withCredentials: true });
+    const socket = io(socket_url, {
+      path: '/api/socket',
+      withCredentials: true,
+    });
     socket.on('new_contact_msg', (data) => {
       dispatch({ type: SET_NEW_MESSAGE, payload: data });
     });

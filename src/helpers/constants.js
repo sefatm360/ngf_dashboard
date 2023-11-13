@@ -1,7 +1,8 @@
 // the ultimate url
-export const url = 'http://192.168.0.237:4001';
-// export const url = 'https://ngf-server.akpalakesingra.com';
-// export const url = 'https://hajjmanagment.online';
+// export const url = 'http://192.168.0.237:4001';
+// export const socket_url = 'http://192.168.0.237:4001';
+export const url = 'https://server.sunderbanmart.com';
+export const socket_url = 'https://server.sunderbanmart.com';
 
 // fetching customers
 export const FETCH_CUSTOMER_STARTS = 'FETCH_CUSTOMER_STARTS';

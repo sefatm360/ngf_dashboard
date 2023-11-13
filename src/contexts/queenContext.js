@@ -1,6 +1,6 @@
 import React, { useContext, useEffect, useReducer } from 'react';
 import { io } from 'socket.io-client';
-import { NEW_QUEEN, url } from '../helpers/constants';
+import { NEW_QUEEN, socket_url, url } from '../helpers/constants';
 import reducer from '../reducers/queenReducer';
 
 const QueenContext = React.createContext();
@@ -15,7 +15,8 @@ const QueenContextProvider = ({ children }) => {
   const [state, dispatch] = useReducer(reducer, initialState);
 
   useEffect(() => {
-    const socket = io(url, {
+    const socket = io(socket_url, {
+      path: '/api/socket',
       withCredentials: true,
     });
     socket.on('new_queen', (data) => {

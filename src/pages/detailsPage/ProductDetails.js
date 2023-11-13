@@ -138,7 +138,7 @@ const ProductDetails = () => {
                   {status === 'Approved' && (
                     <a
                       className='button'
-                      href={`https://onthe-way.com/product/${id}`}
+                      href={`https://sunderbanmart.com/product/${id}`}
                       target='_blank'
                       rel='noopener noreferrer'
                       style={{ color: 'white' }}

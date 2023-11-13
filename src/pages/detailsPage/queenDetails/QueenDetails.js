@@ -90,7 +90,7 @@ const QueenDetails = () => {
               {status === 'Approved' && (
                 <a
                   className='button'
-                  href={`https://onthe-way.com/queen/${id}`}
+                  href={`https://sunderbanmart.com/queen/${id}`}
                   target='_blank'
                   style={{ color: 'white' }}
                   rel='noopener noreferrer'

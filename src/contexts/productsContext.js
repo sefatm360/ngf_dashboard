@@ -1,6 +1,10 @@
 import React, { useContext, useEffect, useReducer } from 'react';
 import { io } from 'socket.io-client';
-import { NEW_PRODUCT, NEW_UPDATE_PRODUCT, url } from '../helpers/constants';
+import {
+  NEW_PRODUCT,
+  NEW_UPDATE_PRODUCT,
+  socket_url,
+} from '../helpers/constants';
 import reducer from '../reducers/productReducer';
 const ProductContext = React.createContext();
 
@@ -17,7 +21,8 @@ const ProductContextProvider = ({ children }) => {
   const [state, dispatch] = useReducer(reducer, initialState);
 
   useEffect(() => {
-    const socket = io(url, {
+    const socket = io(socket_url, {
+      path: '/api/socket',
       withCredentials: true,
     });
 

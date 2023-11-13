@@ -1,6 +1,6 @@
 import React, { useContext, useEffect, useReducer, useState } from 'react';
 import { io } from 'socket.io-client';
-import { NEW_OFFER, url } from '../helpers/constants';
+import { NEW_OFFER, socket_url, url } from '../helpers/constants';
 import reducer from '../reducers/offerReducer';
 
 const OfferContext = React.createContext();
@@ -15,7 +15,8 @@ const OfferContextProvider = ({ children }) => {
   const [forceRender] = useState({});
 
   useEffect(() => {
-    const socket = io(url, {
+    const socket = io(socket_url, {
+      path: '/api/socket',
       withCredentials: true,
     });
 
